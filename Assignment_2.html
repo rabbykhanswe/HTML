@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <marquee behavior="scroll" direction="Right"><font size="3" color="orange">ETHI Registration Form</font></marquee>
+        <caption style="text-align: center;"><font size="7" color="blue"> Course Registration</font></caption><br/>
+        <caption><h2 style="text-decoration-color: brown;">Fill this form carefully</h2></caption>
+    </head>
+
+    <body style="background-color: cornflowerblue;">
+        
+        <form action="registration.php" method="GET">
+
+            <label for="fname">First Name :</label><br/>
+            <input type="fname" placeholder="Example: Md"id="fname" name="fname"><br/><br/>
+            
+            <label for="mname">Middle Name :</label><br/>
+            <input type="mname" placeholder="Example: Shafi" id="mname" name="mname"><br/><br/>
+
+            <label for="lname">Last Name :</label><br/>
+            <input type="lname" placeholder="Example: Khan" id="lname" name="lname"><br/><br/>
+
+            <label for="number">Phone Number :</label><br/>
+            <input type="number" placeholder="Example: +880 1612 345678" id="phone" name="phone"><br/><br/>
+
+            <label for="email">E-mail :</label><br/>
+            <input type="email" placeholder="Example: yourmail@yahoo.com" id="email" name="email"><br/><br/>
+
+            <label for="birthday">Date of Birth :</label><br/>
+            <input type="date" id="birthday" name="birthday"><br/><br/>
+
+
+            <p>Gender :</p>
+            
+            <input type="radio" id="gender" name="gender" value="Male" >
+            <label for="gender">Male</label><br/>
+            <input type="radio" id="gender" name="gender" value="Female" >
+            <label for="gender">Female</label><br/>
+            <input type="radio" id="gender" name="gender" value="Other" >
+            <label for="gender">Other</label><br/>
+            
+
+            <p> Academic Degree </p>
+
+            <input type="checkbox" id="degree" name="degree" value="S.S.C">
+            <label for="degree">S.S.C</label><br/>
+            <input type="checkbox" id="degree" name="degree"value="H.S.C">
+            <label for="degree">H.S.C</label><br/>
+            <input type="checkbox" id="degree" name="degree" value="Diploma">
+            <label for="degree">Diploma</label><br/><br/>
+           
+
+
+
+            <label for="photo">Photo :</label><br/>
+            <input type="file" id="photo" name="photo"><br/><br/><br/>
+
+            <input type="submit" value="Submit"><br/>
+
+        </form>
+        
+        <div style="background-color: rgb(187, 186, 189);">
+             <h4>Fore more information, please visit : <a href="https://eshikhon.com"> <b>E shikhon.com</b> </a> </h4>
+        </div>
+
+
+
+    </body>
+</html>
